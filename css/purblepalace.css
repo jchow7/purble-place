@@ -1,0 +1,17 @@
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.map-icons{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+body{
+    background-color: rgb(25, 102, 25);
+}

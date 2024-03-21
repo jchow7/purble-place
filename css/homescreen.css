@@ -1,0 +1,48 @@
+#homescreen{
+    background-color: rgb(103, 190, 249);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.icons{
+margin-top: -700px;
+margin-left: -900px;
+margin-bottom: -695px;
+size: 20%;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0px;
+    margin-right: 20px;
+    background-color: rgb(145, 206, 255);
+}
+
+.time{
+    margin-left: 1400px;
+    margin-top: 10px;
+}
+
+.date{
+    margin-left: 1400px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+img{
+    max-width: 150px;  
+    height: auto;
+}
+
+.trash_pic{
+    max-width: 140px;
+}
+
+.grid-container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-content: left;
+}

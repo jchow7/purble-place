@@ -1,0 +1,92 @@
+#login {
+    background-color: rgb(166, 218, 253);
+    max-width: 100%;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+img{
+    border-radius: 10%;
+    border: 5px solid rgb(179, 177, 177);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 188px;
+}
+
+.user {
+    text-align: center;
+    margin: 20px;
+
+}
+
+.name {
+    margin-top: 20px;
+    margin-bottom: -15px;
+    text-align: center;
+}
+
+.user-text {
+    text-align: center;
+}
+
+.enter{
+    display: inline-block;
+    padding-left: 17px;
+    padding-right: 17px;
+    margin-top: 0px;
+    border: solid black .92px;
+    border-radius: 65%;
+    background-color: rgb(87, 199, 255);
+    margin: 30px;
+} 
+
+a.visited{
+    text-decoration: none;
+}
+a:link{
+    text-decoration: none;
+}
+
+a.hover{
+    color: white;
+}
+
+.pass {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    width: 160px;
+    height: 32px;
+    text-align: left;
+    cursor: text;
+    color:rgb(111, 110, 110);
+}
+
+.pass {
+    margin: auto;
+    border: solid 1px;
+    border-radius: 4px;
+    border-color: rgba(0, 0, 0, 0.827);
+    background-color: white;
+}
+
+.user-button {
+    width: 110px;
+    height: 30px;
+    color: white;
+    font-family: Segoe UI, sans-serif;
+    text-align: start;
+    cursor: grabbing; 
+}
+
+.user-button{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 12px;
+    border: 1px solid rgb(57, 57, 57);
+    border-radius: 4px;
+    background-color: rgb(62, 171, 243);
+}
